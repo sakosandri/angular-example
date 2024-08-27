@@ -1,0 +1,3 @@
+<div  *ngFor="let item of menuList; index as i">
+    <a [routerLink]="item?.route">{{item?.label}}</a>
+</div>
